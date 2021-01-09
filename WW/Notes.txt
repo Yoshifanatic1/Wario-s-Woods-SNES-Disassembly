@@ -1,0 +1,2 @@
+
+- This game's music can't be dumped to .spc. Why? Because this game handles its music more like an NES game would, where the music data is processed by the main processor before being written to the audio output. Of course, as this is the SNES, this processed data has to be sent over to the SPC700 as the main CPU has no direct access to the audio output hardware.
